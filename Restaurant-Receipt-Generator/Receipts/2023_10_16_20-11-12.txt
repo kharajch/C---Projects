@@ -1,0 +1,25 @@
+Customer(s): Kaustav 
+
+          KC RESTAURANT
+         Near Sitai Road,
+            Mathabhanga,
+         Coochbehar:736146
+          Ph:+91XXXXXXXXXX
+   ---------TAX INVOICE------------------
+   Date:23.10.21
+   --------------------------------------
+   Particulars   Qty Rate Amount
+   --------------------------------------
+   1. Samsung_Galaxy_M14_5G       1.0   11240.0   11240.0
+   --------------------------------------
+            Net Total: 11240.0
+            CGST @9:  1011.60 
+            SGST @9:  1011.60 
+   --------------------------------------
+        Grand Total: 13263.20
+   --------------------------------------
+    Thank You                 Visit Again
+
+                (Take Away)
+
+

@@ -1,0 +1,25 @@
+Customer(s): Kharaj 
+
+          KC RESTAURANT
+         Near Sitai Road,
+            Mathabhanga,
+         Coochbehar:736146
+          Ph:+91XXXXXXXXXX
+   ---------TAX INVOICE------------------
+   Date:23.10.21
+   --------------------------------------
+   Particulars   Qty Rate Amount
+   --------------------------------------
+   1. Pizza       2.0   250.0   500.0
+   --------------------------------------
+            Net Total: 500.0
+            CGST @9:  45.00 
+            SGST @9:  45.00 
+   --------------------------------------
+        Grand Total: 590.00
+   --------------------------------------
+    Thank You                 Visit Again
+
+                (Take Away)
+
+
