@@ -100,7 +100,7 @@ start:
                "                (Take Away)\n\n\n");
 
         // Create Receipt File (Change The Path Below)
-        sprintf(fname[0], "/Receipts/%d_%02d_%02d_%02d-%02d-%02d.txt", date.tm_year + 1900, date.tm_mon + 1, date.tm_mday, date.tm_hour, date.tm_min, date.tm_sec);
+        sprintf(fname[0], "K:/Codes/C/C---Projects/Restaurant-Receipt-Generator/Receipts/%d_%02d_%02d_%02d-%02d-%02d.txt", date.tm_year + 1900, date.tm_mon + 1, date.tm_mday, date.tm_hour, date.tm_min, date.tm_sec);
         receipt = fopen(fname[0], "w+");
 
         // Generate Receipt
@@ -141,7 +141,7 @@ start:
         fclose(receipt);
 
         // Saving Receipt Data (Change The Path Below)
-        r_data = fopen("/Data/receipt_data.txt", "a+");
+        r_data = fopen("K:/Codes/C/C---Projects/Restaurant-Receipt-Generator/Data/receipt_data.txt", "a+");
         fprintf(r_data, "%d_%02d_%02d_%02d-%02d-%02d.txt\n", date.tm_year + 1900, date.tm_mon + 1, date.tm_mday, date.tm_hour, date.tm_min, date.tm_sec);
         fclose(r_data);
 
@@ -165,7 +165,7 @@ start:
 
     r_details: // Receipt Entry Data Beginning (Change The Path Below)
 
-        receipt_loc = fopen("/Data/receipt_data.txt", "r");
+        receipt_loc = fopen("K:/Codes/C/C---Projects/Restaurant-Receipt-Generator/Data/receipt_data.txt", "r+");
 
         int i = 0;
 
@@ -187,7 +187,7 @@ start:
             printf("\n");
 
             // (Change The Path Below)
-            sprintf(file_loc[0], "/Receipts/%s", file_nme[0]);
+            sprintf(file_loc[0], "K:/Codes/C/C---Projects/Restaurant-Receipt-Generator/Receipts/%s", file_nme[0]);
 
             receipt_open = fopen(file_loc[0], "r");
 
