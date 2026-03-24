@@ -1,1 +1,3 @@
-This is a menu-driven C console application designed to generate and manage restaurant receipts. The user can either create a new receipt by entering item details, which the program calculates with GST and prints to the screen, or view past records. When a new receipt is generated, it is saved as a unique, timestamped text file, and its filename is logged into a central index file. The program’s viewing function reads this index to show all saved receipts, allowing the user to select and display the full content of any specific past bill, though its operation is limited by the use of hardcoded file paths.
+This is a menu-driven C console application designed to generate and manage restaurant receipts.
+
+*** NOTICE : Change The Paths In The C File Before Executing The Program ***
